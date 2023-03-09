@@ -2,7 +2,7 @@
 require("dotenv").config();
 
 //async errors
-
+require("express-async-errors");
 //exxpress setup
 const express = require("express");
 const app = express();
